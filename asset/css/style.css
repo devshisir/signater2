@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1225px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+#mainwapper{
+    padding: 50px 0px;
+}
+
+.signaterContainer{
+    padding: 40px 50px;
+    background: #F4F7F9;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+.signaterContainer::after{
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: #4B5E7C;
+    z-index: -1;
+}
+
+.userImage{
+    width: 35%;
+}
+
+.userImage img{
+    width: 100%;
+    border: 9px solid #fff;
+    border-radius: 50%;
+}
+
+.signaterContent{
+    padding-left: 50px;
+    width: 65%;
+}
+
+.topsignaterarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topsignaterarea .social ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.topsignaterarea .social ul li a img{
+    transition: 0.4s;
+}
+
+.topsignaterarea .social ul li a:hover img{
+    transform: translateY(-3px);
+}
+
+.topsignaterarea .name h3{
+    color: #4B5E7C;
+    font-weight: 700;
+    font-size: 27px;
+}
+.topsignaterarea .name p{
+    margin-top: 5px;
+    color: #4B5E7C;
+    font-size: 20px;
+}
+
+.topsignaterBottomInfo{
+    margin-top: 20px;
+}
+
+.topsignaterBottomInfo ul li{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.topsignaterBottomInfo ul li a{
+    color: #4B5E7C;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.topsignaterBottomInfo ul li a:hover{
+    color: #7798B2;
+    text-decoration: underline;
+}
+
+
+.contentBottomarea{
+    margin-top: 60px;
+}
+
+.contentBottomarea .bottomTopinfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBottomarea .bottomTopinfo .leftinfo{}
+.contentBottomarea .bottomTopinfo .leftinfo ul li {
+    display: block;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.contentBottomarea .bottomTopinfo .leftinfo ul li a{
+    display: block;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.contentBottomarea .bottomTopinfo .leftinfo ul li a:hover{
+    text-decoration: underline;
+}
+
+.contentBottomarea .bottomTopinfo .logo{
+    width: 40%;
+}
+.contentBottomarea .bottomTopinfo .logo a{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+}
+.contentBottomarea .bottomTopinfo .logo a img{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.bottomAddressArea{
+    margin-top: 30px;
+}
+
+.bottomAddressArea p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
